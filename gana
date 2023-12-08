@@ -1,0 +1,18 @@
+ 1  sudo yum update
+    2  ll
+    3  cat dockerfile
+    4  yum install docker -y
+    5  systemctl start docker
+    6  systemctl status docker
+    7  docker version
+    8  cd /
+    9  du -sh
+   10  docker pull amazonlinux
+   11  docker images
+   12  ll
+   13  docker run --name cont1 amazonlinux
+   14  docker ps
+   15  docker ps -a
+   16  docker run -it --name cont2 amazonlinux
+   17  docker ps
+   18  docker ps -a
