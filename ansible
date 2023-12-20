@@ -1,0 +1,23 @@
+  sudo -i
+1.hostnamectl set-hostname ansible/dev/test
+  sudo -i
+
+ passwd root
+ vim /etc/ssh/sshd_config
+ 38 --># remove yes  63--># remove yes-->62 # no
+ systemctl restart sshd
+ systemctl status sshd
+  hostname -i
+2.amazon-linux-extras install ansible2 -y
+ yum install python python-pip python-level -y
+vim /etc/ansible/hosts
+note: user your ips(add from line 12)
+[test]
+[dev]
+3.connection
+ssh-keygen-->enter --> enter
+ssh@root public ip(node)
+ll -al
+ll .ssh
+ssh-copy-id root@node ip-->yes -->passwd
+ssh node ip  ctrl+d
