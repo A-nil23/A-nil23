@@ -1,0 +1,22 @@
+     sudo yum update
+     sudo -i
+     yum install docker -y
+     systemctl start docker
+     systemctl status docker
+     docker --version
+     cd /
+     du -sh
+     docker pull amazonlinux
+     docker images
+     docker ps
+     docker ps -a
+     docker run --name cont1 amazonlinux
+     docker ps -a
+     docker run -it --name cont2 amazonlinux
+       bash lo ls
+       cd /
+       du -sh
+       yum install git mvn -y
+       ctrl+d
+     docker images
+     docker ps -a
