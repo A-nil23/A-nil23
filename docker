@@ -41,4 +41,12 @@ docker pull
    16  vim index.html
    17  docker build -t anil:v1 .
    18  docker run -itd --name anil -p 81:80 anil:v1
---> paytm anil application run
+--> paytm anil application run  ip address/81
+    vim index.html--<h2>paytm train<h2>
+  docker build -t train:v1 .
+ docker run -itd --name train -p 82:80 train:v1
+paytm train application run   ip/82
+  vim index.html--<h2>paytm tickets<h2>
+  docker build -t tickets:v1 .
+ docker run -itd --name tickets -p 83:80 tickets:v1
+paytm tickets application run   ip/83
