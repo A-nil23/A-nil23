@@ -20,3 +20,25 @@
        ctrl+d
      docker images
      docker ps -a
+
+
+docker run
+docker build
+docker pull
+ sudo yum update
+    2  yum install docker
+    3  systemctl start docker
+    4  systemctl status docker
+    5  vim dockerfile
+    6  vim index.html
+    7  docker build -t movies:v1 .
+    8  docker run -itd --name movies -p 81:80 movies:v1
+ -->paytm movies application run   
+    9  sudo yum update
+   10  systemctl start docker
+   11  systemctl status docker
+   12  cat docker file
+   16  vim index.html
+   17  docker build -t anil:v1 .
+   18  docker run -itd --name anil -p 81:80 anil:v1
+--> paytm anil application run
